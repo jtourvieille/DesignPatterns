@@ -65,7 +65,6 @@ namespace DP.Behavioral.ChainOfRespWithSpec
             ISpecification<DemandeAugmentation> moreThan20Percent =
                 new Specification<DemandeAugmentation>(d => d.Pourcentage > 20);
 
-
             Approver<DemandeAugmentation> christopheM = new Manager<DemandeAugmentation>();
             Approver<DemandeAugmentation> thomasC = new ResponsableDepartement<DemandeAugmentation>();
             Approver<DemandeAugmentation> jeanPhilippeE = new ResponsableDirection<DemandeAugmentation>();

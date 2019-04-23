@@ -42,7 +42,7 @@ namespace DP.Behavioral.ChainOfRespWithSpec
         private void TraiteDemandeAugmentation(DemandeAugmentation demandeAugmentation)
         {
             var traitementMethodology =
-                TraitementMethodologyFactory.GeTraitementMethodology(demandeAugmentation);
+                TraitementMethodologyFactory.GetTraitementMethodology(demandeAugmentation);
 
             bool augmentationAccordee =
                 traitementMethodology.IsAugmentationAccordee(demandeAugmentation, FacteurChance);

@@ -9,7 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResp", "ChainOfResp"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.Behavioral.ChainOfResp", "Behavioral\ChainOfResp\DP.Behavioral.ChainOfResp\DP.Behavioral.ChainOfResp.csproj", "{8B8453BA-3ED3-486D-97F1-F1F76242EABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DP.Behavioral.ChainOfRespWithSpec", "Behavioral\ChainOfResp\DP.Behavioral.ChainOfRespWithSpec\DP.Behavioral.ChainOfRespWithSpec.csproj", "{9E269C0E-4859-4B1A-80C4-3D3456790818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DP.Behavioral.ChainOfRespWithSpec", "Behavioral\ChainOfResp\DP.Behavioral.ChainOfRespWithSpec\DP.Behavioral.ChainOfRespWithSpec.csproj", "{9E269C0E-4859-4B1A-80C4-3D3456790818}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{6D860AD8-7E37-4055-92F5-1D5F37C62093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{06D16082-A93D-4B07-B252-27BE74638F56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,7 @@ Global
 		{AA8CBC2A-DEE4-4BDB-A32E-8ECA05831137} = {9B12BCE3-EB01-45B0-96CC-7DEA3F1F4B94}
 		{8B8453BA-3ED3-486D-97F1-F1F76242EABB} = {AA8CBC2A-DEE4-4BDB-A32E-8ECA05831137}
 		{9E269C0E-4859-4B1A-80C4-3D3456790818} = {AA8CBC2A-DEE4-4BDB-A32E-8ECA05831137}
+		{06D16082-A93D-4B07-B252-27BE74638F56} = {6D860AD8-7E37-4055-92F5-1D5F37C62093}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EFA8E847-20A8-40CD-8065-F425E93037C2}

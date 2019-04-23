@@ -4,7 +4,7 @@ namespace DP.Behavioral.ChainOfRespWithSpec
 {
     internal static class TraitementMethodologyFactory
     {
-        public static ITraitementMethodology GeTraitementMethodology(DemandeAugmentation demandeAugmentation)
+        public static ITraitementMethodology GetTraitementMethodology(DemandeAugmentation demandeAugmentation)
         {
             switch (demandeAugmentation.Division)
             {
